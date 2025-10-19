@@ -7,7 +7,7 @@ def get_data():
     response = requests.get(
         "http://earthquake.usgs.gov/fdsnws/event/1/query.geojson",
     params ={
-            'starttime': "2014-01-01",
+            'starttime': "2000-01-01",
             "maxlatitude": "58.723",
             "minlatitude": "50.008",
             "maxlongitude": "1.67",
